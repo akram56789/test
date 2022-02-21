@@ -22,7 +22,7 @@ document.getElementById('add-friend').addEventListener('click',
     function () {
         const container = document.getElementById('friend-container');
         const friendDiv = document.createElement('div');
-        friendDiv.classList.add('New friend')
+        friendDiv.classList.add('new-friend')
         friendDiv.innerHTML = `<h3 class="frined-name">friend4</h3>
     <p>Dolor asperiores totam nostrum qui.</p>
     `;
